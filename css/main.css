@@ -1,0 +1,46 @@
+html,
+body {
+  font-size: 16px;
+}
+body {
+  height: 100%;
+  background: #fbfbfb;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.logo {
+  background: #2d2d2d;
+  border: 1px solid #333333;
+  padding: 15px 60px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -100%);
+      -ms-transform: translate(-50%, -100%);
+          transform: translate(-50%, -100%);
+}
+.logo h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 5px 0 0;
+}
+.logo h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  font-size: 1.5rem;
+}
+.footer a {
+  color: #6b6b6b;
+}

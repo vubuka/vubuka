@@ -1,0 +1,23 @@
+{
+  "name": "vubuka-web",
+  "version": "1.0.0",
+  "description": "Vubuka Solutions Website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vubuka/vubuka-web"
+  },
+  "author": "vubuka",
+  "license": "MIT",
+  "homepage": "http://www.vubukasolutions.com",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-less": "^3.3.0"
+  }
+}
